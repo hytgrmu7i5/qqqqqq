@@ -3,8 +3,8 @@ import streamlit as st
 st.title('나의 첫 웹 서비스 만들기!!')
 
 # 사용자 입력 받기
-name = st.text_input('이름을 입력해주세요 : ')
-mbti = st.selectbox('MBTI를 선택해주세요:', [
+name = st.text_input('이름을 입력해: ')
+mbti = st.selectbox('MBTI를 선택해: ') [
     'INTJ', 'INTP', 'ENTJ', 'ENTP', 'INFJ', 'INFP', 'ENFJ', 'ENFP', 
     'ISTJ', 'ISFJ', 'ESTJ', 'ESFJ', 'ISTP', 'ISFP', 'ESTP', 'ESFP'
 ])
